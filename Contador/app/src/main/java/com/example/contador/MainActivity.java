@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     }
 
     public void mostrarResultado(){
-        TextView textoResultado = (TextView)findViewById(R.id.contadorPulsaciones);
-        textoResultado.setText("Contador: " + contador);
+        TextView textoResultado = (TextView)findViewById(R.id.contadorTexto);
+        textoResultado.setText("" + contador);
     }
 }

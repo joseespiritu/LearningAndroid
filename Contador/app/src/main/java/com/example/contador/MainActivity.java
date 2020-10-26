@@ -3,6 +3,7 @@ package com.example.contador;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -52,6 +53,10 @@ public class MainActivity extends Activity {
 
         numero_reset.setText("");
         textoResultado.setText(""+contador);
+
+        InputMethodManager miteclado = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+        miteclado.hideSoftInputFromWindow(numero_reset.getWindowToken(),0);
+
         //mostrarResultado();
     }
 

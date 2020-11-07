@@ -9,6 +9,12 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.4"
+        />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +31,70 @@
             android:text="@string/un_jugador"
             style="@style/boton" />
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/facil"
+                android:text="@string/facil"
+                style="@style/radio" />
+            <RadioButton
+                android:id="@+id/normal"
+                android:text="@string/normal"
+                style="@style/radio" />
+            <RadioButton
+                android:id="@+id/imposible"
+                android:text="@string/Imposible"
+                style="@style/radio" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/dosjug"
+            android:text="@string/dos_jugadores"
+            style="@style/boton" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.4"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/a1"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/a2"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/a3"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/b1"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/b2"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/b3"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/c1"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/c2"
+            style="@style/casilla" />
+        <ImageView
+            android:id="@+id/c3"
+            style="@style/casilla" />
+
+    </GridLayout>
 
 </LinearLayout>

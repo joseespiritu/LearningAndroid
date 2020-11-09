@@ -2,7 +2,7 @@
 <resources>
 
     <dimen name="padding_pantalla">12dp</dimen>
-    <dimen name="casilla">90dp</dimen>
+    <dimen name="casilla">80dp</dimen>
     <dimen name="textoTitulo">24sp</dimen>
     <dimen name="texto_boton">18sp</dimen>
     <dimen name="ancho_min_boton">140dp</dimen>

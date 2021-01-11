@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501382373293",
+    "project_id": "curso-android-firebase-50b54",
+    "storage_bucket": "curso-android-firebase-50b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501382373293:android:b95b65908f43d4359dcb24",
+        "android_client_info": {
+          "package_name": "com.jose.cursos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501382373293-nroq18lbea87d7261o6e3lkfj02gsb1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCydYgPnKU09UgHbAYv0KH7HQ5HxV7jd4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501382373293-nroq18lbea87d7261o6e3lkfj02gsb1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

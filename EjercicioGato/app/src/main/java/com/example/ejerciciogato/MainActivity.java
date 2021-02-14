@@ -79,6 +79,12 @@ public class MainActivity extends Activity {
         toast.show();*/
 
         marca(casilla);
+
+        // Casilla random donde se dibujara el aspa
+        casilla = partida.ia();
+        partida.turno();
+        marca(casilla);
+        partida.turno();
     }
 
     private void marca(int casilla){
